@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_agent_check_def">
+    <sn_agent_check_def action="DELETE">
+        <active>true</active>
+        <assets/>
+        <auto_generate>false</auto_generate>
+        <check_group/>
+        <check_json/>
+        <check_script_type display_value="Command">524b504edbb820102266187d139619e4</check_script_type>
+        <command>osqueryi  --logger_min_status 1 --json "{{.labels.params_query}} "</command>
+        <command_prefix/>
+        <cron/>
+        <description/>
+        <event_status_change_threshold/>
+        <event_status_repair_threshold/>
+        <interval>60</interval>
+        <is_proxy_valid>false</is_proxy_valid>
+        <label/>
+        <name>util.command</name>
+        <prev_command>{{.labels.param}}</prev_command>
+        <sys_class_name>sn_agent_check_def</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-01 18:11:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>df47e84adbf820102266187d1396196b</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>util.command</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name>sn_agent_check_def_df47e84adbf820102266187d1396196b</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-01 19:51:11</sys_updated_on>
+        <timeout>60000</timeout>
+    </sn_agent_check_def>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</application>
+        <file_path/>
+        <instance_id>e7843780db0bb3c49df22f17d496197a</instance_id>
+        <instance_name>empatmaster</instance_name>
+        <name>sn_agent_check_def_df47e84adbf820102266187d1396196b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_agent_check_def"><sn_agent_check_def action="INSERT_OR_UPDATE"><active>true</active><assets/><auto_generate>false</auto_generate><check_group/><check_json/><check_script_type display_value="Command">524b504edbb820102266187d139619e4</check_script_type><command>osqueryi  --logger_min_status 1 --json "{{.labels.params_query}} "</command><command_prefix/><cron/><description/><event_status_change_threshold/><event_status_repair_threshold/><interval>60</interval><is_proxy_valid>false</is_proxy_valid><label/><name>util.command</name><prev_command>{{.labels.param}}</prev_command><sys_class_name>sn_agent_check_def</sys_class_name><sys_created_by>haritha.ambati@snc</sys_created_by><sys_created_on>2020-12-01 18:11:14</sys_created_on><sys_domain>global</sys_domain><sys_id>df47e84adbf820102266187d1396196b</sys_id><sys_mod_count>15</sys_mod_count><sys_name>util.command</sys_name><sys_overrides/><sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package><sys_policy/><sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope><sys_update_name>sn_agent_check_def_df47e84adbf820102266187d1396196b</sys_update_name><sys_updated_by>haritha.ambati@snc</sys_updated_by><sys_updated_on>2020-12-01 19:51:11</sys_updated_on><timeout>60000</timeout></sn_agent_check_def></record_update>]]></payload>
+        <payload_hash>1532613124</payload_hash>
+        <record_name>util.command</record_name>
+        <reverted_from/>
+        <source>4192a446dbf820102266187d139619db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-01 19:51:11</sys_created_on>
+        <sys_id>eb0ff046db7c20102266187d13961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761fdbde250000001</sys_recorded_at>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-01 19:51:11</sys_updated_on>
+        <type>Check Definition</type>
+        <update_guid>670ff046797c2010e48aa92c2e07e979</update_guid>
+        <update_guid_history>670ff046797c2010e48aa92c2e07e979:1532613124,c1fe7046b37c20108803cc363b68a74a:986464917,3493700a553c20107cdd7c8d6f6843a0:-915551695,ca5378862b3c2010913a0d8bb7b840e8:-298484063,d6513086ea3c201007d2f4c6ccf5f03d:-961959932,41313c467e3c2010123e057afe6009f8:1275917555,8e7c6cce2df82010a7555a3ad87656b9:-915551695,8cfb2ccebef820102ba8805de98123ea:678602464,61bb2cceb4f820101bfaa5d798382554:1275917555,479b28ce31f82010a2fd46f6204fc047:-915551695,3bfae88eeff82010e09d101130ea5da4:-2103182993,50fae88e1ef820109062e414592ffaa1:1432615073,68dae88e0df820103bd1419350a47a9d:-1964061215,eae9e44e8ef8201031af3145268971a3:1568607015,9f99ac0e8bf820104a28ea5062251fe0:1482657509,9b2824cabff820109b42b393e11422ff:-1368392797</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="util.command">2a3149c6db7c20102266187d13961979</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-01 20:00:40</sys_created_on>
+        <sys_db_object display_value="" name="sn_agent_check_def">sn_agent_check_def</sys_db_object>
+        <sys_id>bc2834fafd9c473aa467a6c75089eaa1</sys_id>
+        <sys_metadata>df47e84adbf820102266187d1396196b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>util.command</sys_name>
+        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_scope_delete display_value="">2d4b891e0eba44dc88ac2c3a30ae2a99</sys_scope_delete>
+        <sys_update_name>sn_agent_check_def_df47e84adbf820102266187d1396196b</sys_update_name>
+        <sys_update_version display_value="sn_agent_check_def_df47e84adbf820102266187d1396196b">eb0ff046db7c20102266187d13961979</sys_update_version>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-01 20:00:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

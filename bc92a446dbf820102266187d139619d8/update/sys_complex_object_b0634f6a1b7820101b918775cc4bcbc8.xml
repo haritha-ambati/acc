@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDfc634f6aa9782010665ca36567695fc7</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>bc92a446dbf820102266187d139619d8</scope_name>
+        <serialized_content>{"FlowDesigner:FDfc634f6aa9782010665ca36567695fc7":{"hostname":"String","hostname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"hostname\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"7a167b9d-9504-4977-9aae-add26615f321\"}"}},"FlowDesigner:FDfc634f6aa9782010665ca36567695fc7.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"system_information\",\"mandatory\":\"false\",\"child_name\":\"Network_interface_Details\",\"uiUniqueId\":\"de78ffac-d8d6-49dc-b654-55bd3e550b5d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDfc634f6aa9782010665ca36567695fc7\",\"child_label\":\"Network interface Details\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"89edce3d-c19f-43f3-b973-7492375434fe\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-03 18:46:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0634f6a1b7820101b918775cc4bcbc8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDfc634f6aa9782010665ca36567695fc7</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name>sys_complex_object_b0634f6a1b7820101b918775cc4bcbc8</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-13 18:29:00</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
