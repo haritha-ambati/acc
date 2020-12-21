@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>get_running_services</internal_name>
         <label_cache>[{"name":"{{action.ci}}","label":"action➛CI","type":"action","ref":""},{"name":"{{action.timeout}}","label":"action➛Timeout","type":"action","ref":""},{"name":"{{action.max_results}}","label":"action➛Max Results","type":"action","ref":""},{"name":"{{action.osquery}}","label":"action➛Osquery","type":"action","ref":""},{"name":"{{action.record}}","label":"action➛record","type":"action","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].variable}}","label":"Send Commandstep➛➛variable","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].variable1}}","label":"Send Commandstep➛➛variable1","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].variable2}}","label":"Send Commandstep➛➛variable2","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].status}}","label":"Send Commandstep➛➛status","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].error_message}}","label":"Send Commandstep➛➛Error Message","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].response}}","label":"Send Commandstep➛➛Response","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].record}}","label":"step➛Send Command➛record","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].record.sys_id}}","label":"step➛Send Command➛record➛Sys ID","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].request_id}}","label":"step➛Send Command➛request_id","type":"step","ref":""},{"name":"{{step[ec4377ad-101a-4456-b998-02c038082bfe].record}}","label":"step➛Create Record step➛Action Response Record","type":"step","ref":"x_snc_agent_client_action_response"},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].variable}}","label":"step➛Pick Response➛variable","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].status}}","label":"step➛Pick Response➛Status","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].error_message}}","label":"step➛Pick Response➛Error Message","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].reposne}}","label":"step➛Pick Response➛Reposne","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].reponse}}","label":"step➛Pick Response➛Reposne","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].response}}","label":"step➛Pick Response➛Reposne","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Process}}","label":"step➛Pick Response➛Process","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details}}","label":"step➛Pick Response➛Processes➛Process Details","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child1}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child1","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child2}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child2","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child3}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child3","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child4}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child4","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child5}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child5","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details._}}","label":"step➛Pick Response➛Processes➛Process Details","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.cmdline}}","label":"step➛Pick Response➛Processes➛Process Details➛cmdline","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.cwd}}","label":"step➛Pick Response➛Processes➛Process Details➛cwd","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.disk_bytes_read}}","label":"step➛Pick Response➛Processes➛Process Details➛disk_bytes_read","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.disk_bytes_written}}","label":"step➛Pick Response➛Processes➛Process Details➛disk_bytes_written","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.egid}}","label":"step➛Pick Response➛Processes➛Process Details➛egid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child6}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child6","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child7}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child7","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child8}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child8","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.elapsed_time}}","label":"step➛Pick Response➛Processes➛Process Details➛elapsed_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.euid}}","label":"step➛Pick Response➛Processes➛Process Details➛euid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.gid}}","label":"step➛Pick Response➛Processes➛Process Details➛gid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child9}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child9","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.handle_count}}","label":"step➛Pick Response➛Processes➛Process Details➛handle_count","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child10}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child10","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.is_elevated_token}}","label":"step➛Pick Response➛Processes➛Process Details➛is_elevated_token","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child11}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child11","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child12}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child12","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child13}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child13","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.name}}","label":"step➛Pick Response➛Processes➛Process Details➛name","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.nice}}","label":"step➛Pick Response➛Processes➛Process Details➛nice","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.on_disk}}","label":"step➛Pick Response➛Processes➛Process Details➛on_disk","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.parent}}","label":"step➛Pick Response➛Processes➛Process Details➛parent","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.path}}","label":"step➛Pick Response➛Processes➛Process Details➛path","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child14}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child14","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child15}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child15","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child16}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child16","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child17}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child17","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child18}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child18","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child19}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child19","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.percent_processor_time}}","label":"step➛Pick Response➛Processes➛Process Details➛percent_processor_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.pgroup}}","label":"step➛Pick Response➛Processes➛Process Details➛pgroup","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.pid}}","label":"step➛Pick Response➛Processes➛Process Details➛pid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.resident_size}}","label":"step➛Pick Response➛Processes➛Process Details➛resident_size","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.root}}","label":"step➛Pick Response➛Processes➛Process Details➛root","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.sgid}}","label":"step➛Pick Response➛Processes➛Process Details➛sgid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.start_time}}","label":"step➛Pick Response➛Processes➛Process Details➛start_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child21}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child21","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child22}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child22","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child23}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child23","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child24}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child24","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child25}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child25","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child26}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child26","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child27}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child27","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.start}}","label":"step➛Pick Response➛Processes➛Process Details➛start","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.state}}","label":"step➛Pick Response➛Processes➛Process Details➛state","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.system_time}}","label":"step➛Pick Response➛Processes➛Process Details➛system_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.suid}}","label":"step➛Pick Response➛Processes➛Process Details➛suid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.threads}}","label":"step➛Pick Response➛Processes➛Process Details➛threads","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.total_size}}","label":"step➛Pick Response➛Processes➛Process Details➛total_size","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.uid}}","label":"step➛Pick Response➛Processes➛Process Details➛uid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.user_time}}","label":"step➛Pick Response➛Processes➛Process Details➛user_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.wired_size}}","label":"step➛Pick Response➛Processes➛Process Details➛wired_size","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes}}","label":"step➛Pick Response➛Processes","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services}}","label":"step➛Pick Response➛Services","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details}}","label":"step➛Pick Response➛Services➛Service Details","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child1}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child1","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child2}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child2","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child3}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child3","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.name}}","label":"step➛Pick Response➛Services➛Service Details➛name","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_type}}","label":"step➛Pick Response➛Services➛Service Details➛service_type","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.display_name}}","label":"step➛Pick Response➛Services➛Service Details➛display_name","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child4}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child4","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.status1}}","label":"step➛Pick Response➛Services➛Service Details➛status","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child5}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child5","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child6}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child6","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child7}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child7","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child8}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child8","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child9}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child9","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.start_type}}","label":"step➛Pick Response➛Services➛Service Details➛start_type","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.pid}}","label":"step➛Pick Response➛Services➛Service Details➛pid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.win32_exit_code}}","label":"step➛Pick Response➛Services➛Service Details➛win32_exit_code","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_exit_code}}","label":"step➛Pick Response➛Services➛Service Details➛service_exit_code","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.path}}","label":"step➛Pick Response➛Services➛Service Details➛path","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child10}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child10","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.module_path}}","label":"step➛Pick Response➛Services➛Service Details➛module_path","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child11}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child11","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child12}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child12","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.description}}","label":"step➛Pick Response➛Services➛Service Details➛description","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.user_account}}","label":"step➛Pick Response➛Services➛Service Details➛user_account","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].query}}","label":"step➛Send Command➛query","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>92f1a598dbd120102266187d139619b9</latest_snapshot>
+        <latest_snapshot>38910a90db9520102266187d139619bc</latest_snapshot>
         <master_snapshot>5c3e666e1bf420101b918775cc4bcbdc</master_snapshot>
         <name>Get Running Services</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3ec2eea1bf420101b918775cc4bcba1</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Get Running Services</sys_name>
         <sys_overrides/>
         <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d3ec2eea1bf420101b918775cc4bcba1</sys_update_name>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:25:47</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -704,10 +704,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:08:12</sys_created_on>
         <sys_id>57ec2eea1bf420101b918775cc4bcbbe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:15:32</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:46</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=57ec2eea1bf420101b918775cc4bcbbe"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -760,9 +760,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:08:13</sys_created_on>
         <sys_id>a3ec6eea1bf420101b918775cc4bcb0e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:15:32</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:46</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var server = new GlideRecord("cmdb_ci_server");
 	server.addQuery("sys_id", inputs.ci);
@@ -779,7 +779,7 @@
   	if(state == 2)
       throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
-	cis.addQuery("sys_id", CISysId);
+	cis.addQuery("sys_id", inputs.ci);
 	cis.query();
   	var Osquery = "select * from services order by service_type limit "+inputs.max_results;
 	check = {
@@ -2471,10 +2471,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:08:12</sys_created_on>
         <sys_id>57ec2eea1bf420101b918775cc4bcbbe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:15:32</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:46</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=57ec2eea1bf420101b918775cc4bcbbe"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2527,9 +2527,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:08:13</sys_created_on>
         <sys_id>a3ec6eea1bf420101b918775cc4bcb0e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:15:32</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:46</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var server = new GlideRecord("cmdb_ci_server");
 	server.addQuery("sys_id", inputs.ci);
@@ -2546,7 +2546,7 @@
   	if(state == 2)
       throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
-	cis.addQuery("sys_id", CISysId);
+	cis.addQuery("sys_id", inputs.ci);
 	cis.query();
   	var Osquery = "select * from services order by service_type limit "+inputs.max_results;
 	check = {
@@ -3330,17 +3330,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Running Services">d3ec2eea1bf420101b918775cc4bcba1</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b93ee66e1bf420101b918775cc4bcbdb","name":"plan"}}</plan>
-        <snapshot>92f1a598dbd120102266187d139619b9</snapshot>
+        <snapshot>38910a90db9520102266187d139619bc</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:13:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b93ee66e1bf420101b918775cc4bcbdb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:25:51</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:56</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3931,10 +3931,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:13:44</sys_created_on>
         <sys_id>d43ea66e1bf420101b918775cc4bcb03</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:15:38</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:51</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d43ea66e1bf420101b918775cc4bcb03"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4015,9 +4015,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:13:44</sys_created_on>
         <sys_id>ec3ea66e1bf420101b918775cc4bcb2d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:15:38</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:51</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var server = new GlideRecord("cmdb_ci_server");
 	server.addQuery("sys_id", inputs.ci);
@@ -4034,7 +4034,7 @@
   	if(state == 2)
       throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
-	cis.addQuery("sys_id", CISysId);
+	cis.addQuery("sys_id", inputs.ci);
 	cis.query();
   	var Osquery = "select * from services order by service_type limit "+inputs.max_results;
 	check = {
@@ -5698,10 +5698,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:13:44</sys_created_on>
         <sys_id>d43ea66e1bf420101b918775cc4bcb03</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:15:38</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:51</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d43ea66e1bf420101b918775cc4bcb03"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5782,9 +5782,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:13:44</sys_created_on>
         <sys_id>ec3ea66e1bf420101b918775cc4bcb2d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:15:38</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:43:51</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var server = new GlideRecord("cmdb_ci_server");
 	server.addQuery("sys_id", inputs.ci);
@@ -5801,7 +5801,7 @@
   	if(state == 2)
       throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
-	cis.addQuery("sys_id", CISysId);
+	cis.addQuery("sys_id", inputs.ci);
 	cis.query();
   	var Osquery = "select * from services order by service_type limit "+inputs.max_results;
 	check = {

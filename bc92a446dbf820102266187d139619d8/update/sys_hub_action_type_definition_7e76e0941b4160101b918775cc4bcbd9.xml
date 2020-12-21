@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>run_command_on_agent</internal_name>
         <label_cache>[{"name":"{{action.ci}}","label":"action➛CI","type":"action","ref":""},{"name":"{{action.timeout}}","label":"action➛Timeout","type":"action","ref":""},{"name":"{{action.max_results}}","label":"action➛Max Results","type":"action","ref":""},{"name":"{{action.osquery}}","label":"action➛Command","type":"action","ref":""},{"name":"{{action.command}}","label":"action➛Command","type":"action","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].variable1}}","label":"step➛Script step➛variable1","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].variable2}}","label":"step➛Script step➛variable2","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].request_id}}","label":"step➛Script step➛request_id","type":"step","ref":""},{"name":"{{step[064f0b8f-9074-4728-a897-8d76423c9284].record}}","label":"step➛Create Record step➛Action Response Record","type":"step","ref":"x_snc_agent_client_action_response"},{"name":"{{step[3d7cf151-09f3-4f7e-bbbb-f41fb57c3ab4].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[3d7cf151-09f3-4f7e-bbbb-f41fb57c3ab4].status}}","label":"step➛Script step➛status","type":"step","ref":""},{"name":"{{step[3d7cf151-09f3-4f7e-bbbb-f41fb57c3ab4].error_message}}","label":"step➛Script step➛error_message","type":"step","ref":""},{"name":"{{step[3d7cf151-09f3-4f7e-bbbb-f41fb57c3ab4].response}}","label":"step➛Script step➛response","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>165221d8dbd120102266187d1396199e</latest_snapshot>
+        <latest_snapshot>86b14e90db9520102266187d1396199e</latest_snapshot>
         <master_snapshot>995b6cd81b4160101b918775cc4bcba7</master_snapshot>
         <name>Run Command on Agent</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7e76e0941b4160101b918775cc4bcbd9</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Run Command on Agent</sys_name>
         <sys_overrides/>
         <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_7e76e0941b4160101b918775cc4bcbd9</sys_update_name>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:27:25</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:29</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -701,10 +701,10 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-08 17:50:11</sys_created_on>
         <sys_id>837624941b4160101b918775cc4bcb17</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:17:49</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:23</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=837624941b4160101b918775cc4bcb17"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -743,9 +743,9 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-08 17:50:11</sys_created_on>
         <sys_id>9f7624941b4160101b918775cc4bcb57</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:17:49</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:23</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var server = new GlideRecord("cmdb_ci_server");
 	server.addQuery("sys_id", inputs.ci);
@@ -762,7 +762,7 @@
   	if(state == 2)
       throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
-	cis.addQuery("sys_id", CISysId);
+	cis.addQuery("sys_id", inputs.ci);
 	cis.query();
 	check = {
 		"checkDefId": "55bef782db3420102266187d139619a6",
@@ -2331,10 +2331,10 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-08 17:50:11</sys_created_on>
         <sys_id>837624941b4160101b918775cc4bcb17</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:17:49</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:23</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=837624941b4160101b918775cc4bcb17"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2373,9 +2373,9 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-08 17:50:11</sys_created_on>
         <sys_id>9f7624941b4160101b918775cc4bcb57</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:17:49</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:23</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var server = new GlideRecord("cmdb_ci_server");
 	server.addQuery("sys_id", inputs.ci);
@@ -2392,7 +2392,7 @@
   	if(state == 2)
       throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
-	cis.addQuery("sys_id", CISysId);
+	cis.addQuery("sys_id", inputs.ci);
 	cis.query();
 	check = {
 		"checkDefId": "55bef782db3420102266187d139619a6",
@@ -3044,17 +3044,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Run Command on Agent">7e76e0941b4160101b918775cc4bcbd9</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"0b5becd81b4160101b918775cc4bcb7c","name":"plan"}}</plan>
-        <snapshot>165221d8dbd120102266187d1396199e</snapshot>
+        <snapshot>86b14e90db9520102266187d1396199e</snapshot>
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-08 18:11:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b5becd81b4160101b918775cc4bcb7c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:27:29</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:34</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3162,10 +3162,10 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-08 18:11:22</sys_created_on>
         <sys_id>915b6cd81b4160101b918775cc4bcbd2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:17:54</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:29</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=915b6cd81b4160101b918775cc4bcbd2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3218,9 +3218,9 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-08 18:11:22</sys_created_on>
         <sys_id>a55bacd81b4160101b918775cc4bcb3f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:17:54</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:29</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var server = new GlideRecord("cmdb_ci_server");
 	server.addQuery("sys_id", inputs.ci);
@@ -3237,7 +3237,7 @@
   	if(state == 2)
       throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
-	cis.addQuery("sys_id", CISysId);
+	cis.addQuery("sys_id", inputs.ci);
 	cis.query();
 	check = {
 		"checkDefId": "55bef782db3420102266187d139619a6",
@@ -4780,10 +4780,10 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-08 18:11:22</sys_created_on>
         <sys_id>915b6cd81b4160101b918775cc4bcbd2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:17:54</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:29</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=915b6cd81b4160101b918775cc4bcbd2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4836,9 +4836,9 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-08 18:11:22</sys_created_on>
         <sys_id>a55bacd81b4160101b918775cc4bcb3f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:17:54</sys_updated_on>
+        <sys_updated_on>2020-12-21 10:44:29</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var server = new GlideRecord("cmdb_ci_server");
 	server.addQuery("sys_id", inputs.ci);
@@ -4855,7 +4855,7 @@
   	if(state == 2)
       throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
-	cis.addQuery("sys_id", CISysId);
+	cis.addQuery("sys_id", inputs.ci);
 	cis.query();
 	check = {
 		"checkDefId": "55bef782db3420102266187d139619a6",
