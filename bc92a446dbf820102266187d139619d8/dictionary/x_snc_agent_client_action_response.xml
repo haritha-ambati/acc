@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Action Response" max_length="40" name="x_snc_agent_client_action_response" sizeclass="96" type="collection">
+    <element label="Action Response" max_length="40" name="x_snc_agent_client_action_response" sizeclass="133" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Command" max_length="500" name="command" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Request ID" max_length="100" name="request_id" type="string"/>

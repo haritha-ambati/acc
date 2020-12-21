@@ -6,7 +6,7 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Agent Client Collector Management">6725ba31db0d20102266187d1396194f</category>
+        <category display_value="Agent Client Collector">6725ba31db0d20102266187d1396194f</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -861,7 +861,7 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Agent Client Collector Management">6725ba31db0d20102266187d1396194f</category>
+        <category display_value="Agent Client Collector">6725ba31db0d20102266187d1396194f</category>
         <copied_from/>
         <copied_from_name/>
         <description/>

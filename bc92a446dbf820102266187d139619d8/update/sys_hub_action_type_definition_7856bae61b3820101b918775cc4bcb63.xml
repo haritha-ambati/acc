@@ -6,14 +6,14 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Agent Client Collector Management">e7e8d5da1b3820101b918775cc4bcbe3</category>
+        <category display_value="Agent Client Collector">6725ba31db0d20102266187d1396194f</category>
         <copied_from>fe4e6a6e1bf420101b918775cc4bcba6</copied_from>
         <copied_from_name>Get Network Statistics</copied_from_name>
         <description/>
         <ih_action>false</ih_action>
         <internal_name>get_system_details</internal_name>
         <label_cache>[{"name":"{{action.ci}}","label":"action➛CI","type":"action","ref":""},{"name":"{{action.timeout}}","label":"action➛Timeout","type":"action","ref":""},{"name":"{{action.max_results}}","label":"action➛Max Results","type":"action","ref":""},{"name":"{{action.osquery}}","label":"action➛Osquery","type":"action","ref":""},{"name":"{{action.record}}","label":"action➛record","type":"action","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].variable}}","label":"Send Commandstep➛➛variable","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].variable1}}","label":"Send Commandstep➛➛variable1","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].variable2}}","label":"Send Commandstep➛➛variable2","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].status}}","label":"Send Commandstep➛➛status","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].error_message}}","label":"Send Commandstep➛➛Error Message","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].response}}","label":"Send Commandstep➛➛Response","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].record}}","label":"step➛Send Command➛record","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].record.sys_id}}","label":"step➛Send Command➛record➛Sys ID","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].request_id}}","label":"step➛Send Command➛request_id","type":"step","ref":""},{"name":"{{step[ec4377ad-101a-4456-b998-02c038082bfe].record}}","label":"step➛Create Record step➛Action Response Record","type":"step","ref":"x_snc_agent_client_action_response"},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information}}","label":"step➛Pick Response➛system_information","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].status}}","label":"step➛Pick Response➛Status","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].error_message}}","label":"step➛Pick Response➛Error Message","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].reposne}}","label":"step➛Pick Response➛Reposne","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].reponse}}","label":"step➛Pick Response➛Reposne","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].response}}","label":"step➛Pick Response➛Reposne","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Process}}","label":"step➛Pick Response➛Process","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details}}","label":"step➛Pick Response➛Processes➛Process Details","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child1}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child1","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child2}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child2","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child3}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child3","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child4}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child4","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child5}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child5","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details._}}","label":"step➛Pick Response➛Processes➛Process Details","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.cmdline}}","label":"step➛Pick Response➛Processes➛Process Details➛cmdline","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.cwd}}","label":"step➛Pick Response➛Processes➛Process Details➛cwd","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.disk_bytes_read}}","label":"step➛Pick Response➛Processes➛Process Details➛disk_bytes_read","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.disk_bytes_written}}","label":"step➛Pick Response➛Processes➛Process Details➛disk_bytes_written","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.egid}}","label":"step➛Pick Response➛Processes➛Process Details➛egid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child6}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child6","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child7}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child7","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child8}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child8","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.elapsed_time}}","label":"step➛Pick Response➛Processes➛Process Details➛elapsed_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.euid}}","label":"step➛Pick Response➛Processes➛Process Details➛euid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.gid}}","label":"step➛Pick Response➛Processes➛Process Details➛gid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child9}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child9","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.handle_count}}","label":"step➛Pick Response➛Processes➛Process Details➛handle_count","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child10}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child10","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.is_elevated_token}}","label":"step➛Pick Response➛Processes➛Process Details➛is_elevated_token","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child11}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child11","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child12}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child12","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child13}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child13","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.name}}","label":"step➛Pick Response➛Processes➛Process Details➛name","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.nice}}","label":"step➛Pick Response➛Processes➛Process Details➛nice","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.on_disk}}","label":"step➛Pick Response➛Processes➛Process Details➛on_disk","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.parent}}","label":"step➛Pick Response➛Processes➛Process Details➛parent","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.path}}","label":"step➛Pick Response➛Processes➛Process Details➛path","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child14}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child14","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child15}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child15","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child16}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child16","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child17}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child17","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child18}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child18","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child19}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child19","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.percent_processor_time}}","label":"step➛Pick Response➛Processes➛Process Details➛percent_processor_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.pgroup}}","label":"step➛Pick Response➛Processes➛Process Details➛pgroup","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.pid}}","label":"step➛Pick Response➛Processes➛Process Details➛pid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.resident_size}}","label":"step➛Pick Response➛Processes➛Process Details➛resident_size","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.root}}","label":"step➛Pick Response➛Processes➛Process Details➛root","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.sgid}}","label":"step➛Pick Response➛Processes➛Process Details➛sgid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.start_time}}","label":"step➛Pick Response➛Processes➛Process Details➛start_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child21}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child21","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child22}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child22","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child23}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child23","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child24}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child24","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child25}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child25","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child26}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child26","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.process_details_child27}}","label":"step➛Pick Response➛Processes➛Process Details➛Process Details_child27","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.start}}","label":"step➛Pick Response➛Processes➛Process Details➛start","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.state}}","label":"step➛Pick Response➛Processes➛Process Details➛state","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.system_time}}","label":"step➛Pick Response➛Processes➛Process Details➛system_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.suid}}","label":"step➛Pick Response➛Processes➛Process Details➛suid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.threads}}","label":"step➛Pick Response➛Processes➛Process Details➛threads","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.total_size}}","label":"step➛Pick Response➛Processes➛Process Details➛total_size","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.uid}}","label":"step➛Pick Response➛Processes➛Process Details➛uid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.user_time}}","label":"step➛Pick Response➛Processes➛Process Details➛user_time","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes.Process_Details.wired_size}}","label":"step➛Pick Response➛Processes➛Process Details➛wired_size","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].Processes}}","label":"step➛Pick Response➛Processes","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services}}","label":"step➛Pick Response➛Services","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details}}","label":"step➛Pick Response➛Services➛Service Details","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child1}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child1","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child2}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child2","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child3}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child3","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.name}}","label":"step➛Pick Response➛Services➛Service Details➛name","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_type}}","label":"step➛Pick Response➛Services➛Service Details➛service_type","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.display_name}}","label":"step➛Pick Response➛Services➛Service Details➛display_name","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child4}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child4","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.status1}}","label":"step➛Pick Response➛Services➛Service Details➛status","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child5}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child5","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child6}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child6","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child7}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child7","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child8}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child8","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child9}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child9","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.start_type}}","label":"step➛Pick Response➛Services➛Service Details➛start_type","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.pid}}","label":"step➛Pick Response➛Services➛Service Details➛pid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.win32_exit_code}}","label":"step➛Pick Response➛Services➛Service Details➛win32_exit_code","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_exit_code}}","label":"step➛Pick Response➛Services➛Service Details➛service_exit_code","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.path}}","label":"step➛Pick Response➛Services➛Service Details➛path","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child10}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child10","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.module_path}}","label":"step➛Pick Response➛Services➛Service Details➛module_path","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child11}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child11","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.service_details_child12}}","label":"step➛Pick Response➛Services➛Service Details➛Service Details_child12","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.description}}","label":"step➛Pick Response➛Services➛Service Details➛description","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].services.Service_Details.user_account}}","label":"step➛Pick Response➛Services➛Service Details➛user_account","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f]._}}","label":"step➛Pick Response➛","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details}}","label":"step➛Pick Response➛system_information➛Network interface Details","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.network_interface_details_child1}}","label":"step➛Pick Response➛system_information➛Network interface Details➛Network interface Details_child1","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.network_interface_details_child2}}","label":"step➛Pick Response➛system_information➛Network interface Details➛Network interface Details_child2","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.network_interface_details_child3}}","label":"step➛Pick Response➛system_information➛Network interface Details➛Network interface Details_child3","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.interface}}","label":"step➛Pick Response➛system_information➛Network interface Details➛interface","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.address}}","label":"step➛Pick Response➛system_information➛Network interface Details➛address","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.mask}}","label":"step➛Pick Response➛system_information➛Network interface Details➛mask","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.network_interface_details_child4}}","label":"step➛Pick Response➛system_information➛Network interface Details➛Network interface Details_child4","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.network_interface_details_child5}}","label":"step➛Pick Response➛system_information➛Network interface Details➛Network interface Details_child5","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.network_interface_details_child6}}","label":"step➛Pick Response➛system_information➛Network interface Details➛Network interface Details_child6","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.broadcast}}","label":"step➛Pick Response➛system_information➛Network interface Details➛broadcast","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.point_to_point}}","label":"step➛Pick Response➛system_information➛Network interface Details➛point_to_point","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.type}}","label":"step➛Pick Response➛system_information➛Network interface Details➛type","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.network_interface_details_child7}}","label":"step➛Pick Response➛system_information➛Network interface Details➛Network interface Details_child7","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.Network_interface_Details.friendly_name}}","label":"step➛Pick Response➛system_information➛Network interface Details➛friendly_name","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590]._}}","label":"step➛Send Command➛","type":"step","ref":""},{"name":"{{step[956cdb47-db4e-4cb8-bec1-97d7d4904590].query}}","label":"step➛Send Command➛query","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.hostname}}","label":"step➛Pick Response➛system_information➛hostname","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child2}}","label":"step➛Pick Response➛system_information➛system_information_child2","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child3}}","label":"step➛Pick Response➛system_information➛system_information_child3","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.uuid}}","label":"step➛Pick Response➛system_information➛uuid","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.cpu_type}}","label":"step➛Pick Response➛system_information➛cpu_type","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child4}}","label":"step➛Pick Response➛system_information➛system_information_child4","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.cpu_subtype}}","label":"step➛Pick Response➛system_information➛cpu_subtype","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child5}}","label":"step➛Pick Response➛system_information➛system_information_child5","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child6}}","label":"step➛Pick Response➛system_information➛system_information_child6","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.cpu_brand}}","label":"step➛Pick Response➛system_information➛cpu_brand","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.cpu_physical_cores}}","label":"step➛Pick Response➛system_information➛cpu_physical_cores","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child7}}","label":"step➛Pick Response➛system_information➛system_information_child7","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child8}}","label":"step➛Pick Response➛system_information➛system_information_child8","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child9}}","label":"step➛Pick Response➛system_information➛system_information_child9","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.cpu_logical_cores}}","label":"step➛Pick Response➛system_information➛cpu_logical_cores","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.cpu_microcode}}","label":"step➛Pick Response➛system_information➛cpu_microcode","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.physical_memory}}","label":"step➛Pick Response➛system_information➛physical_memory","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child10}}","label":"step➛Pick Response➛system_information➛system_information_child10","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.hardware_vendor}}","label":"step➛Pick Response➛system_information➛hardware_vendor","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child11}}","label":"step➛Pick Response➛system_information➛system_information_child11","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.hardware_model}}","label":"step➛Pick Response➛system_information➛hardware_model","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child12}}","label":"step➛Pick Response➛system_information➛system_information_child12","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.hardware_version}}","label":"step➛Pick Response➛system_information➛hardware_version","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child13}}","label":"step➛Pick Response➛system_information➛system_information_child13","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.hardware_serial}}","label":"step➛Pick Response➛system_information➛hardware_serial","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child14}}","label":"step➛Pick Response➛system_information➛system_information_child14","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.board_vendor}}","label":"step➛Pick Response➛system_information➛board_vendor","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child15}}","label":"step➛Pick Response➛system_information➛system_information_child15","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.board_model}}","label":"step➛Pick Response➛system_information➛board_model","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child16}}","label":"step➛Pick Response➛system_information➛system_information_child16","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.board_version}}","label":"step➛Pick Response➛system_information➛board_version","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child17}}","label":"step➛Pick Response➛system_information➛system_information_child17","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.board_serial}}","label":"step➛Pick Response➛system_information➛board_serial","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child18}}","label":"step➛Pick Response➛system_information➛system_information_child18","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.computer_name}}","label":"step➛Pick Response➛system_information➛computer_name","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.system_information_child19}}","label":"step➛Pick Response➛system_information➛system_information_child19","type":"step","ref":""},{"name":"{{step[77873e9b-c236-480f-b24c-c417ba7b0b8f].system_information.local_hostname}}","label":"step➛Pick Response➛system_information➛local_hostname","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>afe0f6f9dbc920102266187d139619ab</latest_snapshot>
+        <latest_snapshot>dae0a918dbd120102266187d13961932</latest_snapshot>
         <master_snapshot>9e638f6a1b7820101b918775cc4bcbce</master_snapshot>
         <name>Get system details</name>
         <natlang/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7856bae61b3820101b918775cc4bcb63</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Get system details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_7856bae61b3820101b918775cc4bcb63</sys_update_name>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 19:45:56</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:21:09</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -604,10 +604,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:49:16</sys_created_on>
         <sys_id>b856bae61b3820101b918775cc4bcb7f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 18:28:59</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:07:21</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b856bae61b3820101b918775cc4bcb7f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -674,16 +674,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:49:16</sys_created_on>
         <sys_id>c956bae61b3820101b918775cc4bcb9d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 18:28:59</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:07:21</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-	var ci = new GlideRecord("cmdb_ci");
-	ci.addQuery("name", inputs.ci);
-	ci.query();
-	while (ci.next()) {
-		var CISysId = ci.getValue("sys_id");
-	}
+	var server = new GlideRecord("cmdb_ci_server");
+	server.addQuery("sys_id", inputs.ci);
+	server.query();
+  	while(server.next()){
+      var servername = server.getValue('name');
+    }
+    var gr = new GlideRecord('sn_agent_ci_extended_info');
+	gr.addQuery('name','CONTAINS',servername);
+	gr.query();
+	while (gr.next()) {
+  		var state = gr.getValue('status');
+    }
+  	if(state == 2)
+      throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
 	cis.addQuery("sys_id", CISysId);
 	cis.query();
@@ -1287,12 +1295,12 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-03 17:49:17</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_hub_action_input action="delete_multiple" query="model=7856bae61b3820101b918775cc4bcb63^sys_idNOT INb856bae61b3820101b918775cc4bcb68,f856bae61b3820101b918775cc4bcb71"/>
+    <sys_hub_action_input action="delete_multiple" query="model=7856bae61b3820101b918775cc4bcb63^sys_idNOT INb7bdd9d0dbd120102266187d139619a0,f856bae61b3820101b918775cc4bcb71"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7e326bcf-e92d-4185-b496-1ff829377192</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7eb65692-c76d-4cb0-849d-f0692af6468f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1300,7 +1308,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label/>
@@ -1323,10 +1331,10 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <label>CI</label>
         <mandatory>true</mandatory>
-        <max_length>1000</max_length>
+        <max_length>8000</max_length>
         <model display_value="Get system details">7856bae61b3820101b918775cc4bcb63</model>
         <model_id>7856bae61b3820101b918775cc4bcb63</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
@@ -1347,17 +1355,17 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-03 17:49:15</sys_created_on>
-        <sys_id>b856bae61b3820101b918775cc4bcb68</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 08:07:20</sys_created_on>
+        <sys_id>b7bdd9d0dbd120102266187d139619a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-03 17:49:15</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 08:20:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1369,19 +1377,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b856bae61b3820101b918775cc4bcb68^sys_idNOT INb056bae61b3820101b918775cc4bcb71"/>
-    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
-        <action_input display_value="CI">b856bae61b3820101b918775cc4bcb68</action_input>
-        <action_inputs/>
-        <action_type display_value="Get CIs">12e4a59a1b7820101b918775cc4bcb51</action_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-03 17:49:16</sys_created_on>
-        <sys_id>b056bae61b3820101b918775cc4bcb71</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 19:45:50</sys_updated_on>
-    </sys_hub_action_input_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b056bae61b3820101b918775cc4bcb71"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1444,14 +1439,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:49:16</sys_created_on>
         <sys_id>f856bae61b3820101b918775cc4bcb71</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-03 17:49:16</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 08:20:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1528,14 +1523,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 18:46:21</sys_created_on>
         <sys_id>05634f6a1b7820101b918775cc4bcbe5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 19:45:51</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:20:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1611,14 +1606,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:49:18</sys_created_on>
         <sys_id>1d56bae61b3820101b918775cc4bcbfe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-03 17:49:18</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 08:20:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1694,14 +1689,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:49:18</sys_created_on>
         <sys_id>9d56bae61b3820101b918775cc4bcbf3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-03 17:49:18</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 08:20:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2214,10 +2209,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:49:16</sys_created_on>
         <sys_id>b856bae61b3820101b918775cc4bcb7f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 18:28:59</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:07:21</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b856bae61b3820101b918775cc4bcb7f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2284,16 +2279,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 17:49:16</sys_created_on>
         <sys_id>c956bae61b3820101b918775cc4bcb9d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 18:28:59</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:07:21</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-	var ci = new GlideRecord("cmdb_ci");
-	ci.addQuery("name", inputs.ci);
-	ci.query();
-	while (ci.next()) {
-		var CISysId = ci.getValue("sys_id");
-	}
+	var server = new GlideRecord("cmdb_ci_server");
+	server.addQuery("sys_id", inputs.ci);
+	server.query();
+  	while(server.next()){
+      var servername = server.getValue('name');
+    }
+    var gr = new GlideRecord('sn_agent_ci_extended_info');
+	gr.addQuery('name','CONTAINS',servername);
+	gr.query();
+	while (gr.next()) {
+  		var state = gr.getValue('status');
+    }
+  	if(state == 2)
+      throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
 	cis.addQuery("sys_id", CISysId);
 	cis.query();
@@ -2897,30 +2900,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-03 17:49:17</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7856bae61b3820101b918775cc4bcb63^sys_idNOT IN3056bae61b3820101b918775cc4bcb70,7856bae61b3820101b918775cc4bcb76"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>ci</element>
-        <help/>
-        <hint/>
-        <label>CI</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_7856bae61b3820101b918775cc4bcb63</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-03 17:49:16</sys_created_on>
-        <sys_id>3056bae61b3820101b918775cc4bcb70</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-03 17:49:16</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7856bae61b3820101b918775cc4bcb63^sys_idNOT IN7856bae61b3820101b918775cc4bcb76,88cdd9d0dbd120102266187d139619c4"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>timeout</element>
         <help/>
@@ -2944,29 +2924,29 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7856bae61b3820101b918775cc4bcb63^sys_idNOT IN3456bae61b3820101b918775cc4bcb6d"/>
-    <sys_choice field="ci" table="var__m_sys_hub_action_input_7856bae61b3820101b918775cc4bcb63">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>ci</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>-- None --</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_7856bae61b3820101b918775cc4bcb63</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-03 17:49:16</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3456bae61b3820101b918775cc4bcb6d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-03 17:49:16</sys_updated_on>
-            <value/>
-        </sys_choice>
-    </sys_choice>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ci</element>
+        <help/>
+        <hint/>
+        <label>CI</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_7856bae61b3820101b918775cc4bcb63</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 08:07:20</sys_created_on>
+        <sys_id>88cdd9d0dbd120102266187d139619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 08:07:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7856bae61b3820101b918775cc4bcb63^sys_idNOT IN5956bae61b3820101b918775cc4bcbfd,5d638f6a1b7820101b918775cc4bcb1d,d956fae61b3820101b918775cc4bcb03"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>status</element>
@@ -3084,17 +3064,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get system details">7856bae61b3820101b918775cc4bcb63</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b87303aa1b7820101b918775cc4bcbc8","name":"plan"}}</plan>
-        <snapshot>afe0f6f9dbc920102266187d139619ab</snapshot>
+        <snapshot>dae0a918dbd120102266187d13961932</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 18:46:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b87303aa1b7820101b918775cc4bcbc8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 19:45:59</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:21:13</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3102,7 +3082,7 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Agent Client Collector Management">e7e8d5da1b3820101b918775cc4bcbe3</category>
+        <category display_value="Agent Client Collector">6725ba31db0d20102266187d1396194f</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -3120,15 +3100,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9e638f6a1b7820101b918775cc4bcbce</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 19:45:55</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:21:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3202,10 +3182,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 18:46:26</sys_created_on>
         <sys_id>1263cf6a1b7820101b918775cc4bcb0b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 18:29:04</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:07:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1263cf6a1b7820101b918775cc4bcb0b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3272,16 +3252,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 18:46:27</sys_created_on>
         <sys_id>ea63cf6a1b7820101b918775cc4bcb2d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 18:29:04</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:07:28</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-	var ci = new GlideRecord("cmdb_ci");
-	ci.addQuery("name", inputs.ci);
-	ci.query();
-	while (ci.next()) {
-		var CISysId = ci.getValue("sys_id");
-	}
+	var server = new GlideRecord("cmdb_ci_server");
+	server.addQuery("sys_id", inputs.ci);
+	server.query();
+  	while(server.next()){
+      var servername = server.getValue('name');
+    }
+    var gr = new GlideRecord('sn_agent_ci_extended_info');
+	gr.addQuery('name','CONTAINS',servername);
+	gr.query();
+	while (gr.next()) {
+  		var state = gr.getValue('status');
+    }
+  	if(state == 2)
+      throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
 	cis.addQuery("sys_id", CISysId);
 	cis.query();
@@ -4357,101 +4345,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-03 18:46:28</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_hub_action_input action="delete_multiple" query="model=9e638f6a1b7820101b918775cc4bcbce^sys_idNOT IN16638f6a1b7820101b918775cc4bcbeb,9e638f6a1b7820101b918775cc4bcbf5"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7e326bcf-e92d-4185-b496-1ff829377192</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice>1</choice>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>ci</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="Choice">choice</internal_type>
-        <label>CI</label>
-        <mandatory>true</mandatory>
-        <max_length>1000</max_length>
-        <model display_value="Get system details">9e638f6a1b7820101b918775cc4bcbce</model>
-        <model_id>9e638f6a1b7820101b918775cc4bcbce</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_9e638f6a1b7820101b918775cc4bcbce</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-03 18:46:26</sys_created_on>
-        <sys_id>16638f6a1b7820101b918775cc4bcbeb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-03 18:46:26</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=16638f6a1b7820101b918775cc4bcbeb^sys_idNOT IN52638f6a1b7820101b918775cc4bcbf5"/>
-    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
-        <action_input display_value="CI">16638f6a1b7820101b918775cc4bcbeb</action_input>
-        <action_inputs/>
-        <action_type display_value="Get CIs">12e4a59a1b7820101b918775cc4bcb51</action_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-03 18:46:26</sys_created_on>
-        <sys_id>52638f6a1b7820101b918775cc4bcbf5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 19:45:55</sys_updated_on>
-    </sys_hub_action_input_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=52638f6a1b7820101b918775cc4bcbf5"/>
+    <sys_hub_action_input action="delete_multiple" query="model=9e638f6a1b7820101b918775cc4bcbce^sys_idNOT IN9e638f6a1b7820101b918775cc4bcbf5,e1cd5dd0dbd120102266187d13961908"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -4522,6 +4416,87 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-03 18:46:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7eb65692-c76d-4cb0-849d-f0692af6468f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ci</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>CI</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get system details">9e638f6a1b7820101b918775cc4bcbce</model>
+        <model_id>9e638f6a1b7820101b918775cc4bcbce</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9e638f6a1b7820101b918775cc4bcbce</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 08:07:27</sys_created_on>
+        <sys_id>e1cd5dd0dbd120102266187d13961908</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 08:07:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4800,10 +4775,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 18:46:26</sys_created_on>
         <sys_id>1263cf6a1b7820101b918775cc4bcb0b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 18:29:04</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:07:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1263cf6a1b7820101b918775cc4bcb0b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4870,16 +4845,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-03 18:46:27</sys_created_on>
         <sys_id>ea63cf6a1b7820101b918775cc4bcb2d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-13 18:29:04</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:07:28</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-	var ci = new GlideRecord("cmdb_ci");
-	ci.addQuery("name", inputs.ci);
-	ci.query();
-	while (ci.next()) {
-		var CISysId = ci.getValue("sys_id");
-	}
+	var server = new GlideRecord("cmdb_ci_server");
+	server.addQuery("sys_id", inputs.ci);
+	server.query();
+  	while(server.next()){
+      var servername = server.getValue('name');
+    }
+    var gr = new GlideRecord('sn_agent_ci_extended_info');
+	gr.addQuery('name','CONTAINS',servername);
+	gr.query();
+	while (gr.next()) {
+  		var state = gr.getValue('status');
+    }
+  	if(state == 2)
+      throw new Error("ACC "+servername+" is down");
 	var cis = new GlideRecord("cmdb_ci_server");
 	cis.addQuery("sys_id", CISysId);
 	cis.query();
@@ -5955,7 +5938,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-03 18:46:28</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9e638f6a1b7820101b918775cc4bcbce^sys_idNOT INda638f6a1b7820101b918775cc4bcbf3,de63cf6a1b7820101b918775cc4bcb07"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9e638f6a1b7820101b918775cc4bcbce^sys_idNOT IN71cd5dd0dbd120102266187d13961938,de63cf6a1b7820101b918775cc4bcb07"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>ci</element>
         <help/>
@@ -5965,17 +5948,17 @@
         <name>var__m_sys_hub_action_input_9e638f6a1b7820101b918775cc4bcbce</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-03 18:46:26</sys_created_on>
-        <sys_id>da638f6a1b7820101b918775cc4bcbf3</sys_id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 08:07:27</sys_created_on>
+        <sys_id>71cd5dd0dbd120102266187d13961938</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-03 18:46:26</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 08:07:27</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -6002,29 +5985,6 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9e638f6a1b7820101b918775cc4bcbce^sys_idNOT INde638f6a1b7820101b918775cc4bcbf0"/>
-    <sys_choice field="ci" table="var__m_sys_hub_action_input_9e638f6a1b7820101b918775cc4bcbce">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>ci</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>-- None --</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_9e638f6a1b7820101b918775cc4bcbce</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-03 18:46:26</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>de638f6a1b7820101b918775cc4bcbf0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-03 18:46:26</sys_updated_on>
-            <value/>
-        </sys_choice>
-    </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9e638f6a1b7820101b918775cc4bcbce^sys_idNOT IN1763cf6a1b7820101b918775cc4bcb94,1f63cf6a1b7820101b918775cc4bcbb4,d363cf6a1b7820101b918775cc4bcba1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>system_information</element>
