@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>agent_health</internal_name>
+        <label_cache>[{"name":"910ebb46-c800-4a43-955d-2131f1d93e6e.status","label":"1➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"5f0b8a4e-a559-46b8-9828-ab035577430d"}},{"name":"subflow.agent","label":"Input➛Agent","reference":"","reference_display":"","type":"dynamic_choice","base_type":"dynamic_choice","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"faa52f1c-682e-4e29-9af1-2c7a1f881e42"}},{"name":"e0a42800-9118-4da1-8fa3-05c898b3a667.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"e0a42800-9118-4da1-8fa3-05c898b3a667.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"79101848-702b-49ab-a7a8-65dc77fc8a77.status","label":"5➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"5f0b8a4e-a559-46b8-9828-ab035577430d"}}]</label_cache>
+        <latest_snapshot>bf4c5618db1920102266187d13961969</latest_snapshot>
+        <master_snapshot>bf4c5618db1920102266187d13961969</master_snapshot>
+        <name>Restart Agent</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:30:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f3e95e14db1920102266187d13961923</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Restart Agent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name>sys_hub_flow_f3e95e14db1920102266187d13961923</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:45</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f3e95e14db1920102266187d13961923"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f3e95e14db1920102266187d13961923"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=f3e95e14db1920102266187d13961923^sys_idNOT IN034c1618db1920102266187d1396198c,364c1618db1920102266187d1396196d,364c1618db1920102266187d1396196f,3a4c1618db1920102266187d13961960,3a4c1618db1920102266187d13961988,724c1618db1920102266187d13961987,be4c1618db1920102266187d13961963,cf4c1618db1920102266187d1396198f,cf4c1618db1920102266187d13961992"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4b4c1618db1920102266187d1396198b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>agent_status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>3641a0d9-295f-499b-b456-0289c3009dae</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>034c1618db1920102266187d1396198c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:45</sys_updated_on>
+        <ui_id>9d71716a-a528-40b7-ab44-5441130b3d5f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=034c1618db1920102266187d1396198c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>034c1618db1920102266187d1396198c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>834c1618db1920102266187d1396198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <value>Restarted</value>
+        <variable display_value="Output">ee4c1618db1920102266187d1396194d</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Restart Agent">48699214db1920102266187d139619f5</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <order>3</order>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>364c1618db1920102266187d1396196d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>a4288ffc-c745-4c84-aa9d-4520721701c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=364c1618db1920102266187d1396196d"/>
+    <sys_element_mapping action="delete_multiple" query="id=364c1618db1920102266187d1396196d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>364c1618db1920102266187d1396196d</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>3a4c1618db1920102266187d1396196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_48699214db1920102266187d139619f5</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7e4c1618db1920102266187d1396196e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>364c1618db1920102266187d1396196f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>e0a42800-9118-4da1-8fa3-05c898b3a667</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=364c1618db1920102266187d1396196f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>364c1618db1920102266187d1396196f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>7a4c1618db1920102266187d13961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <value>1970-01-01 00:05:00</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>364c1618db1920102266187d1396196f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>b24c1618db1920102266187d13961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Agent Status">ab1a3c1c1b8160101b918775cc4bcb47</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>3a4c1618db1920102266187d13961960</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>910ebb46-c800-4a43-955d-2131f1d93e6e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a4c1618db1920102266187d13961960"/>
+    <sys_element_mapping action="delete_multiple" query="id=3a4c1618db1920102266187d13961960"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>3a4c1618db1920102266187d13961960</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>3a4c1618db1920102266187d13961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab1a3c1c1b8160101b918775cc4bcb47</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">724c1618db1920102266187d13961988</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>3a4c1618db1920102266187d13961988</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>3641a0d9-295f-499b-b456-0289c3009dae</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3a4c1618db1920102266187d13961988"/>
+    <sys_element_mapping action="delete_multiple" query="id=3a4c1618db1920102266187d13961988"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>3a4c1618db1920102266187d13961988</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>874c1618db1920102266187d1396198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{79101848-702b-49ab-a7a8-65dc77fc8a77.status}}=Up</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Agent Status">ab1a3c1c1b8160101b918775cc4bcb47</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <order>5</order>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>724c1618db1920102266187d13961987</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>79101848-702b-49ab-a7a8-65dc77fc8a77</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=724c1618db1920102266187d13961987"/>
+    <sys_element_mapping action="delete_multiple" query="id=724c1618db1920102266187d13961987"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>724c1618db1920102266187d13961987</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>be4c1618db1920102266187d13961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab1a3c1c1b8160101b918775cc4bcb47</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">724c1618db1920102266187d13961963</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>be4c1618db1920102266187d13961963</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=be4c1618db1920102266187d13961963"/>
+    <sys_element_mapping action="delete_multiple" query="id=be4c1618db1920102266187d13961963"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>be4c1618db1920102266187d13961963</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>724c1618db1920102266187d13961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:35</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{910ebb46-c800-4a43-955d-2131f1d93e6e.status}}=Down</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b4c1618db1920102266187d1396198f</block>
+        <comment/>
+        <connected_to>3641a0d9-295f-499b-b456-0289c3009dae</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>cf4c1618db1920102266187d1396198f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:45</sys_updated_on>
+        <ui_id>e9eddf6d-5c0b-478e-bfce-7dcce5fbfd64</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cf4c1618db1920102266187d1396198f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b4c1618db1920102266187d13961992</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned>agent_status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>e9eddf6d-5c0b-478e-bfce-7dcce5fbfd64</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>cf4c1618db1920102266187d13961992</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:45</sys_updated_on>
+        <ui_id>9992e8a2-c611-408e-8ebd-2219e5a38409</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cf4c1618db1920102266187d13961992"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cf4c1618db1920102266187d13961992</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>8b4c1618db1920102266187d13961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <value>Restarting Failed.</value>
+        <variable display_value="Output">ee4c1618db1920102266187d1396194d</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f3e95e14db1920102266187d13961923^sys_idNOT INbfe95e14db1920102266187d13961925"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f3e95e14db1920102266187d13961923</id>
+        <name>Agent Health</name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:30:17</sys_created_on>
+        <sys_id>bfe95e14db1920102266187d13961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:30:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=f3e95e14db1920102266187d13961923^sys_idNOT IN624c1618db1920102266187d1396193f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiUniqueId=faa52f1c-682e-4e29-9af1-2c7a1f881e42</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>agent</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Agent</label>
+        <mandatory>false</mandatory>
+        <max_length>1000</max_length>
+        <model display_value="Restart Agent">f3e95e14db1920102266187d13961923</model>
+        <model_id>f3e95e14db1920102266187d13961923</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f3e95e14db1920102266187d13961923</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:34</sys_created_on>
+        <sys_id>624c1618db1920102266187d1396193f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=f3e95e14db1920102266187d13961923^sys_idNOT INee4c1618db1920102266187d1396194d"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=18833655-408f-412a-883a-163d34382604</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>agent_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Restart Agent">f3e95e14db1920102266187d13961923</model>
+        <model_id>f3e95e14db1920102266187d13961923</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_f3e95e14db1920102266187d13961923</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>ee4c1618db1920102266187d1396194d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f3e95e14db1920102266187d13961923^sys_idNOT IN364c1618db1920102266187d1396196d,3a4c1618db1920102266187d13961960,724c1618db1920102266187d13961987"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Restart Agent">48699214db1920102266187d139619f5</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <order>3</order>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>364c1618db1920102266187d1396196d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>a4288ffc-c745-4c84-aa9d-4520721701c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=364c1618db1920102266187d1396196d"/>
+    <sys_element_mapping action="delete_multiple" query="id=364c1618db1920102266187d1396196d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>364c1618db1920102266187d1396196d</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>3a4c1618db1920102266187d1396196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_48699214db1920102266187d139619f5</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Agent Status">ab1a3c1c1b8160101b918775cc4bcb47</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>3a4c1618db1920102266187d13961960</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>910ebb46-c800-4a43-955d-2131f1d93e6e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a4c1618db1920102266187d13961960"/>
+    <sys_element_mapping action="delete_multiple" query="id=3a4c1618db1920102266187d13961960"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>3a4c1618db1920102266187d13961960</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>3a4c1618db1920102266187d13961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab1a3c1c1b8160101b918775cc4bcb47</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Agent Status">ab1a3c1c1b8160101b918775cc4bcb47</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <order>5</order>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>724c1618db1920102266187d13961987</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>79101848-702b-49ab-a7a8-65dc77fc8a77</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=724c1618db1920102266187d13961987"/>
+    <sys_element_mapping action="delete_multiple" query="id=724c1618db1920102266187d13961987"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>724c1618db1920102266187d13961987</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>be4c1618db1920102266187d13961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab1a3c1c1b8160101b918775cc4bcb47</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f3e95e14db1920102266187d13961923^sys_idNOT IN034c1618db1920102266187d1396198c,364c1618db1920102266187d1396196f,3a4c1618db1920102266187d13961988,be4c1618db1920102266187d13961963,cf4c1618db1920102266187d1396198f,cf4c1618db1920102266187d13961992"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4b4c1618db1920102266187d1396198b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>agent_status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>3641a0d9-295f-499b-b456-0289c3009dae</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>034c1618db1920102266187d1396198c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:45</sys_updated_on>
+        <ui_id>9d71716a-a528-40b7-ab44-5441130b3d5f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=034c1618db1920102266187d1396198c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>034c1618db1920102266187d1396198c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>834c1618db1920102266187d1396198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <value>Restarted</value>
+        <variable display_value="Output">ee4c1618db1920102266187d1396194d</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7e4c1618db1920102266187d1396196e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>364c1618db1920102266187d1396196f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>e0a42800-9118-4da1-8fa3-05c898b3a667</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=364c1618db1920102266187d1396196f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>364c1618db1920102266187d1396196f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>7a4c1618db1920102266187d13961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <value>1970-01-01 00:05:00</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>364c1618db1920102266187d1396196f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>b24c1618db1920102266187d13961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">724c1618db1920102266187d13961988</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>3a4c1618db1920102266187d13961988</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>3641a0d9-295f-499b-b456-0289c3009dae</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3a4c1618db1920102266187d13961988"/>
+    <sys_element_mapping action="delete_multiple" query="id=3a4c1618db1920102266187d13961988"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>3a4c1618db1920102266187d13961988</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>874c1618db1920102266187d1396198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{79101848-702b-49ab-a7a8-65dc77fc8a77.status}}=Up</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">724c1618db1920102266187d13961963</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>be4c1618db1920102266187d13961963</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+        <ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=be4c1618db1920102266187d13961963"/>
+    <sys_element_mapping action="delete_multiple" query="id=be4c1618db1920102266187d13961963"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>be4c1618db1920102266187d13961963</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>724c1618db1920102266187d13961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:35</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{910ebb46-c800-4a43-955d-2131f1d93e6e.status}}=Down</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b4c1618db1920102266187d1396198f</block>
+        <comment/>
+        <connected_to>3641a0d9-295f-499b-b456-0289c3009dae</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>cf4c1618db1920102266187d1396198f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:45</sys_updated_on>
+        <ui_id>e9eddf6d-5c0b-478e-bfce-7dcce5fbfd64</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cf4c1618db1920102266187d1396198f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b4c1618db1920102266187d13961992</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned>agent_status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>e9eddf6d-5c0b-478e-bfce-7dcce5fbfd64</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>cf4c1618db1920102266187d13961992</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:45</sys_updated_on>
+        <ui_id>9992e8a2-c611-408e-8ebd-2219e5a38409</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cf4c1618db1920102266187d13961992"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cf4c1618db1920102266187d13961992</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:36</sys_created_on>
+        <sys_id>8b4c1618db1920102266187d13961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:36</sys_updated_on>
+        <value>Restarting Failed.</value>
+        <variable display_value="Output">ee4c1618db1920102266187d1396194d</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f3e95e14db1920102266187d13961923^sys_idNOT INe64c1618db1920102266187d13961949"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>agent</element>
+        <help/>
+        <hint/>
+        <label>Agent</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f3e95e14db1920102266187d13961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>e64c1618db1920102266187d13961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f3e95e14db1920102266187d13961923^sys_idNOT INf45c9618db1920102266187d139619ea"/>
+    <sys_choice field="agent" table="var__m_sys_hub_flow_input_f3e95e14db1920102266187d13961923">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_f3e95e14db1920102266187d13961923</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2020-12-21 12:40:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f45c9618db1920102266187d139619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+            <value/>
+        </sys_choice>
+    </sys_choice>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f3e95e14db1920102266187d13961923^sys_idNOT IN7e4c1618db1920102266187d13961957"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>agent_status</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_f3e95e14db1920102266187d13961923</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:35</sys_created_on>
+        <sys_id>7e4c1618db1920102266187d13961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f3e95e14db1920102266187d13961923^sys_idNOT IN7c5c9618db1920102266187d139619d7"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@17149f3</plan>
+        <plan_id display_value="Restart Agent">f3e95e14db1920102266187d13961923</plan_id>
+        <snapshot>bf4c5618db1920102266187d13961969</snapshot>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c5c9618db1920102266187d139619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:44</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>restart_agent</internal_name>
+        <label_cache>[{"name":"910ebb46-c800-4a43-955d-2131f1d93e6e.status","label":"1➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"5f0b8a4e-a559-46b8-9828-ab035577430d"}},{"name":"subflow.agent","label":"Input➛Agent","reference":"","reference_display":"","type":"dynamic_choice","base_type":"dynamic_choice","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"faa52f1c-682e-4e29-9af1-2c7a1f881e42"}},{"name":"e0a42800-9118-4da1-8fa3-05c898b3a667.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"e0a42800-9118-4da1-8fa3-05c898b3a667.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"79101848-702b-49ab-a7a8-65dc77fc8a77.status","label":"5➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"5f0b8a4e-a559-46b8-9828-ab035577430d"}}]</label_cache>
+        <master>true</master>
+        <name>Restart Agent</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Restart Agent">f3e95e14db1920102266187d13961923</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf4c5618db1920102266187d13961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:39</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=bf4c5618db1920102266187d13961969"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bf4c5618db1920102266187d13961969"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=bf4c5618db1920102266187d13961969^sys_idNOT IN005c9618db1920102266187d13961928,085c9618db1920102266187d13961915,1c5c9618db1920102266187d13961962,445c9618db1920102266187d13961920,8c5c9618db1920102266187d13961923,c85c9618db1920102266187d13961919,d05c9618db1920102266187d1396192b,d85c9618db1920102266187d1396195b,dc5c9618db1920102266187d13961968"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b4c1618db1920102266187d1396198f</block>
+        <comment/>
+        <connected_to>3641a0d9-295f-499b-b456-0289c3009dae</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>005c9618db1920102266187d13961928</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>e9eddf6d-5c0b-478e-bfce-7dcce5fbfd64</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=005c9618db1920102266187d13961928"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">724c1618db1920102266187d13961963</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>085c9618db1920102266187d13961915</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=085c9618db1920102266187d13961915"/>
+    <sys_element_mapping action="delete_multiple" query="id=085c9618db1920102266187d13961915"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>085c9618db1920102266187d13961915</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>005c9618db1920102266187d13961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{910ebb46-c800-4a43-955d-2131f1d93e6e.status}}=Down</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Restart Agent">48699214db1920102266187d139619f5</action_type>
+        <action_type_parent display_value="Restart Agent">d8a55a9cdbd520102266187d1396194f</action_type_parent>
+        <comment/>
+        <compiled_snapshot>48699214db1920102266187d139619f5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <order>3</order>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>1c5c9618db1920102266187d13961962</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:42</sys_updated_on>
+        <ui_id>a4288ffc-c745-4c84-aa9d-4520721701c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1c5c9618db1920102266187d13961962"/>
+    <sys_element_mapping action="delete_multiple" query="id=1c5c9618db1920102266187d13961962"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>1c5c9618db1920102266187d13961962</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:42</sys_created_on>
+        <sys_id>585c9618db1920102266187d13961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_48699214db1920102266187d139619f5</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">724c1618db1920102266187d13961988</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>445c9618db1920102266187d13961920</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>3641a0d9-295f-499b-b456-0289c3009dae</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=445c9618db1920102266187d13961920"/>
+    <sys_element_mapping action="delete_multiple" query="id=445c9618db1920102266187d13961920"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>445c9618db1920102266187d13961920</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>c05c9618db1920102266187d13961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{79101848-702b-49ab-a7a8-65dc77fc8a77.status}}=Up</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4b4c1618db1920102266187d1396198b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>agent_status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>3641a0d9-295f-499b-b456-0289c3009dae</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>8c5c9618db1920102266187d13961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>9d71716a-a528-40b7-ab44-5441130b3d5f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8c5c9618db1920102266187d13961923"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>8c5c9618db1920102266187d13961923</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>805c9618db1920102266187d13961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <value>Restarted</value>
+        <variable display_value="Output">8c5c9618db1920102266187d13961901</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7e4c1618db1920102266187d1396196e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>c85c9618db1920102266187d13961919</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>e0a42800-9118-4da1-8fa3-05c898b3a667</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c85c9618db1920102266187d13961919"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c85c9618db1920102266187d13961919</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>485c9618db1920102266187d1396191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <value>1970-01-01 00:05:00</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c85c9618db1920102266187d13961919</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>845c9618db1920102266187d1396191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b4c1618db1920102266187d13961992</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned>agent_status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>e9eddf6d-5c0b-478e-bfce-7dcce5fbfd64</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>d05c9618db1920102266187d1396192b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>9992e8a2-c611-408e-8ebd-2219e5a38409</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d05c9618db1920102266187d1396192b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d05c9618db1920102266187d1396192b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>9c5c9618db1920102266187d1396192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <value>Restarting Failed.</value>
+        <variable display_value="Output">8c5c9618db1920102266187d13961901</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Agent Status">ab1a3c1c1b8160101b918775cc4bcb47</action_type>
+        <action_type_parent display_value="Get Agent Status">880970181b8160101b918775cc4bcb32</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab1a3c1c1b8160101b918775cc4bcb47</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>d85c9618db1920102266187d1396195b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>910ebb46-c800-4a43-955d-2131f1d93e6e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d85c9618db1920102266187d1396195b"/>
+    <sys_element_mapping action="delete_multiple" query="id=d85c9618db1920102266187d1396195b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>d85c9618db1920102266187d1396195b</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>185c9618db1920102266187d1396195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab1a3c1c1b8160101b918775cc4bcb47</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Agent Status">ab1a3c1c1b8160101b918775cc4bcb47</action_type>
+        <action_type_parent display_value="Get Agent Status">880970181b8160101b918775cc4bcb32</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab1a3c1c1b8160101b918775cc4bcb47</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <order>5</order>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:42</sys_created_on>
+        <sys_id>dc5c9618db1920102266187d13961968</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:42</sys_updated_on>
+        <ui_id>79101848-702b-49ab-a7a8-65dc77fc8a77</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc5c9618db1920102266187d13961968"/>
+    <sys_element_mapping action="delete_multiple" query="id=dc5c9618db1920102266187d13961968"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>dc5c9618db1920102266187d13961968</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:42</sys_created_on>
+        <sys_id>1c5c9618db1920102266187d13961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab1a3c1c1b8160101b918775cc4bcb47</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=bf4c5618db1920102266187d13961969^sys_idNOT IN774c5618db1920102266187d1396196b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>bf4c5618db1920102266187d13961969</id>
+        <name>Restart Agent</name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:39</sys_created_on>
+        <sys_id>774c5618db1920102266187d1396196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=bf4c5618db1920102266187d13961969^sys_idNOT IN3f4c5618db1920102266187d1396196c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiUniqueId=faa52f1c-682e-4e29-9af1-2c7a1f881e42</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>agent</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Agent</label>
+        <mandatory>false</mandatory>
+        <max_length>1000</max_length>
+        <model display_value="Restart Agent">bf4c5618db1920102266187d13961969</model>
+        <model_id>bf4c5618db1920102266187d13961969</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_bf4c5618db1920102266187d13961969</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:39</sys_created_on>
+        <sys_id>3f4c5618db1920102266187d1396196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=bf4c5618db1920102266187d13961969^sys_idNOT IN8c5c9618db1920102266187d13961901"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=18833655-408f-412a-883a-163d34382604</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>agent_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Restart Agent">bf4c5618db1920102266187d13961969</model>
+        <model_id>bf4c5618db1920102266187d13961969</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_bf4c5618db1920102266187d13961969</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:40</sys_created_on>
+        <sys_id>8c5c9618db1920102266187d13961901</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=bf4c5618db1920102266187d13961969^sys_idNOT IN1c5c9618db1920102266187d13961962,d85c9618db1920102266187d1396195b,dc5c9618db1920102266187d13961968"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Restart Agent">48699214db1920102266187d139619f5</action_type>
+        <action_type_parent display_value="Restart Agent">d8a55a9cdbd520102266187d1396194f</action_type_parent>
+        <comment/>
+        <compiled_snapshot>48699214db1920102266187d139619f5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <order>3</order>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>1c5c9618db1920102266187d13961962</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:42</sys_updated_on>
+        <ui_id>a4288ffc-c745-4c84-aa9d-4520721701c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1c5c9618db1920102266187d13961962"/>
+    <sys_element_mapping action="delete_multiple" query="id=1c5c9618db1920102266187d13961962"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>1c5c9618db1920102266187d13961962</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:42</sys_created_on>
+        <sys_id>585c9618db1920102266187d13961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_48699214db1920102266187d139619f5</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Agent Status">ab1a3c1c1b8160101b918775cc4bcb47</action_type>
+        <action_type_parent display_value="Get Agent Status">880970181b8160101b918775cc4bcb32</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab1a3c1c1b8160101b918775cc4bcb47</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>d85c9618db1920102266187d1396195b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>910ebb46-c800-4a43-955d-2131f1d93e6e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d85c9618db1920102266187d1396195b"/>
+    <sys_element_mapping action="delete_multiple" query="id=d85c9618db1920102266187d1396195b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>d85c9618db1920102266187d1396195b</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>185c9618db1920102266187d1396195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab1a3c1c1b8160101b918775cc4bcb47</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Agent Status">ab1a3c1c1b8160101b918775cc4bcb47</action_type>
+        <action_type_parent display_value="Get Agent Status">880970181b8160101b918775cc4bcb32</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab1a3c1c1b8160101b918775cc4bcb47</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <order>5</order>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:42</sys_created_on>
+        <sys_id>dc5c9618db1920102266187d13961968</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:42</sys_updated_on>
+        <ui_id>79101848-702b-49ab-a7a8-65dc77fc8a77</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc5c9618db1920102266187d13961968"/>
+    <sys_element_mapping action="delete_multiple" query="id=dc5c9618db1920102266187d13961968"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>agent</field>
+        <id>dc5c9618db1920102266187d13961968</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:42</sys_created_on>
+        <sys_id>1c5c9618db1920102266187d13961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab1a3c1c1b8160101b918775cc4bcb47</table>
+        <value>{{subflow.agent}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=bf4c5618db1920102266187d13961969^sys_idNOT IN005c9618db1920102266187d13961928,085c9618db1920102266187d13961915,445c9618db1920102266187d13961920,8c5c9618db1920102266187d13961923,c85c9618db1920102266187d13961919,d05c9618db1920102266187d1396192b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b4c1618db1920102266187d1396198f</block>
+        <comment/>
+        <connected_to>3641a0d9-295f-499b-b456-0289c3009dae</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>005c9618db1920102266187d13961928</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>e9eddf6d-5c0b-478e-bfce-7dcce5fbfd64</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=005c9618db1920102266187d13961928"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">724c1618db1920102266187d13961963</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>085c9618db1920102266187d13961915</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=085c9618db1920102266187d13961915"/>
+    <sys_element_mapping action="delete_multiple" query="id=085c9618db1920102266187d13961915"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>085c9618db1920102266187d13961915</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>005c9618db1920102266187d13961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{910ebb46-c800-4a43-955d-2131f1d93e6e.status}}=Down</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">724c1618db1920102266187d13961988</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>445c9618db1920102266187d13961920</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>3641a0d9-295f-499b-b456-0289c3009dae</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=445c9618db1920102266187d13961920"/>
+    <sys_element_mapping action="delete_multiple" query="id=445c9618db1920102266187d13961920"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>445c9618db1920102266187d13961920</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>c05c9618db1920102266187d13961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{79101848-702b-49ab-a7a8-65dc77fc8a77.status}}=Up</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4b4c1618db1920102266187d1396198b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>agent_status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>3641a0d9-295f-499b-b456-0289c3009dae</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>8c5c9618db1920102266187d13961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>9d71716a-a528-40b7-ab44-5441130b3d5f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8c5c9618db1920102266187d13961923"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>8c5c9618db1920102266187d13961923</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>805c9618db1920102266187d13961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <value>Restarted</value>
+        <variable display_value="Output">8c5c9618db1920102266187d13961901</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7e4c1618db1920102266187d1396196e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9830adea-a53f-4ed4-9d7e-ceab5df4be7a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>c85c9618db1920102266187d13961919</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>e0a42800-9118-4da1-8fa3-05c898b3a667</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c85c9618db1920102266187d13961919"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c85c9618db1920102266187d13961919</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>485c9618db1920102266187d1396191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <value>1970-01-01 00:05:00</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c85c9618db1920102266187d13961919</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>845c9618db1920102266187d1396191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b4c1618db1920102266187d13961992</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Agent">bf4c5618db1920102266187d13961969</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned>agent_status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>e9eddf6d-5c0b-478e-bfce-7dcce5fbfd64</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>d05c9618db1920102266187d1396192b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <ui_id>9992e8a2-c611-408e-8ebd-2219e5a38409</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d05c9618db1920102266187d1396192b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d05c9618db1920102266187d1396192b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:41</sys_created_on>
+        <sys_id>9c5c9618db1920102266187d1396192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:41</sys_updated_on>
+        <value>Restarting Failed.</value>
+        <variable display_value="Output">8c5c9618db1920102266187d13961901</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bf4c5618db1920102266187d13961969^sys_idNOT IN445c5618db1920102266187d139619fb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>agent</element>
+        <help/>
+        <hint/>
+        <label>Agent</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bf4c5618db1920102266187d13961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:40</sys_created_on>
+        <sys_id>445c5618db1920102266187d139619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_bf4c5618db1920102266187d13961969^sys_idNOT IN805c5618db1920102266187d139619f8"/>
+    <sys_choice field="agent" table="var__m_sys_hub_flow_input_bf4c5618db1920102266187d13961969">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_bf4c5618db1920102266187d13961969</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2020-12-21 12:40:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>805c5618db1920102266187d139619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-12-21 12:40:40</sys_updated_on>
+            <value/>
+        </sys_choice>
+    </sys_choice>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_bf4c5618db1920102266187d13961969^sys_idNOT IN045c9618db1920102266187d1396190f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>agent_status</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_bf4c5618db1920102266187d13961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-12-21 12:40:40</sys_created_on>
+        <sys_id>045c9618db1920102266187d1396190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-12-21 12:40:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
