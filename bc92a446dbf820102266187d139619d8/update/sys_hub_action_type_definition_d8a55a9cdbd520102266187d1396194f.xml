@@ -365,7 +365,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="Agent">a5879a50db1920102266187d13961905</action_input>
         <action_inputs/>
-        <action_type display_value="Get CIs">12e4a59a1b7820101b918775cc4bcb51</action_type>
+        <action_type display_value="Get">12e4a59a1b7820101b918775cc4bcb51</action_type>
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-21 12:19:46</sys_created_on>
         <sys_id>e5879a50db1920102266187d139619e6</sys_id>
@@ -1040,7 +1040,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="Agent">00699214db1920102266187d139619f9</action_input>
         <action_inputs/>
-        <action_type display_value="Get CIs">12e4a59a1b7820101b918775cc4bcb51</action_type>
+        <action_type display_value="Get">12e4a59a1b7820101b918775cc4bcb51</action_type>
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-21 12:27:50</sys_created_on>
         <sys_id>0869d214db1920102266187d13961902</sys_id>

@@ -13,9 +13,9 @@
         <ih_action>false</ih_action>
         <internal_name>get_cis</internal_name>
         <label_cache>[{"name":"{{step[ce7e267f-fe8a-41d8-8a6e-6b4e86afec79].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[ce7e267f-fe8a-41d8-8a6e-6b4e86afec79].cis}}","label":"step➛Script step➛cis","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>08e2611cdbd120102266187d13961945</latest_snapshot>
+        <latest_snapshot>3489dea0db1520102266187d1396195e</latest_snapshot>
         <master_snapshot>3cd8fdd21bf820101b918775cc4bcb82</master_snapshot>
-        <name>Get CIs</name>
+        <name>Get Agents</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>31b8f9d21bf820101b918775cc4bcbce</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Get CIs</sys_name>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>Get Agents</sys_name>
         <sys_overrides/>
         <sys_package display_value="Agent Client Collector Spoke" source="x_snc_agent_client">bc92a446dbf820102266187d139619d8</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_31b8f9d21bf820101b918775cc4bcbce</sys_update_name>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:29:44</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:55</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -55,7 +55,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=31b8f9d21bf820101b918775cc4bcbce^sys_idNOT IN71b8f9d21bf820101b918775cc4bcbd4"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Get CIs">31b8f9d21bf820101b918775cc4bcbce</action>
+        <action display_value="Get Agents">31b8f9d21bf820101b918775cc4bcbce</action>
         <cid>ce7e267f-fe8a-41d8-8a6e-6b4e86afec79</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -69,10 +69,10 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:41:35</sys_created_on>
         <sys_id>71b8f9d21bf820101b918775cc4bcbd4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-02 18:41:35</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=71b8f9d21bf820101b918775cc4bcbd4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -83,18 +83,18 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:41:35</sys_created_on>
         <sys_id>75b8f9d21bf820101b918775cc4bcbe1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-02 18:41:35</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var cis = [];
 	var data = [];
-	var agents = new GlideRecord("sn_agent_computers_connected_to_agent");
+	var agents = new GlideRecord("sn_agent_ci_extended_info");
 	agents.query();
 	while (agents.next()) {
 		cis.push({
-			label: agents.getDisplayValue(),
-			name: agents.getDisplayValue()
+			label:agents.getValue('name'),
+			name: agents.getValue('name')
 		});
 	}
 	outputs.cis = {
@@ -241,7 +241,7 @@
         <label>CIs</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Get CIs">31b8f9d21bf820101b918775cc4bcbce</model>
+        <model display_value="Get Agents">31b8f9d21bf820101b918775cc4bcbce</model>
         <model_id>31b8f9d21bf820101b918775cc4bcbce</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_31b8f9d21bf820101b918775cc4bcbce</name>
@@ -285,7 +285,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=31b8f9d21bf820101b918775cc4bcbce^sys_idNOT IN71b8f9d21bf820101b918775cc4bcbd4"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Get CIs">31b8f9d21bf820101b918775cc4bcbce</action>
+        <action display_value="Get Agents">31b8f9d21bf820101b918775cc4bcbce</action>
         <cid>ce7e267f-fe8a-41d8-8a6e-6b4e86afec79</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -299,10 +299,10 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:41:35</sys_created_on>
         <sys_id>71b8f9d21bf820101b918775cc4bcbd4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-02 18:41:35</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=71b8f9d21bf820101b918775cc4bcbd4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -313,18 +313,18 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:41:35</sys_created_on>
         <sys_id>75b8f9d21bf820101b918775cc4bcbe1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-02 18:41:35</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var cis = [];
 	var data = [];
-	var agents = new GlideRecord("sn_agent_computers_connected_to_agent");
+	var agents = new GlideRecord("sn_agent_ci_extended_info");
 	agents.query();
 	while (agents.next()) {
 		cis.push({
-			label: agents.getDisplayValue(),
-			name: agents.getDisplayValue()
+			label:agents.getValue('name'),
+			name: agents.getValue('name')
 		});
 	}
 	outputs.cis = {
@@ -455,19 +455,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=31b8f9d21bf820101b918775cc4bcbce^sys_idNOT IN11d831161bf820101b918775cc4bcb28"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Get CIs">31b8f9d21bf820101b918775cc4bcbce</action_id>
+        <action_id display_value="Get Agents">31b8f9d21bf820101b918775cc4bcbce</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"11d831161bf820101b918775cc4bcb28","name":"plan"}}</plan>
-        <snapshot>08e2611cdbd120102266187d13961945</snapshot>
+        <snapshot>3489dea0db1520102266187d1396195e</snapshot>
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:42:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>11d831161bf820101b918775cc4bcb28</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:29:45</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:55</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -482,18 +482,18 @@
         <internal_name>get_cis</internal_name>
         <label_cache>[{"name":"{{step[ce7e267f-fe8a-41d8-8a6e-6b4e86afec79].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[ce7e267f-fe8a-41d8-8a6e-6b4e86afec79].cis}}","label":"step➛Script step➛cis","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Get CIs</name>
+        <name>Get Agents</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Get CIs">31b8f9d21bf820101b918775cc4bcbce</parent_action>
+        <parent_action display_value="Get Agents">31b8f9d21bf820101b918775cc4bcbce</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:42:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3cd8fdd21bf820101b918775cc4bcb82</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -501,7 +501,7 @@
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-21 08:29:44</sys_updated_on>
+        <sys_updated_on>2020-12-21 18:57:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -522,7 +522,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=3cd8fdd21bf820101b918775cc4bcb82^sys_idNOT IN4dd8fdd21bf820101b918775cc4bcb92"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Get CIs">3cd8fdd21bf820101b918775cc4bcb82</action>
+        <action display_value="Get Agents">3cd8fdd21bf820101b918775cc4bcb82</action>
         <cid>ce7e267f-fe8a-41d8-8a6e-6b4e86afec79</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -536,10 +536,10 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:42:04</sys_created_on>
         <sys_id>4dd8fdd21bf820101b918775cc4bcb92</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-02 18:42:05</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4dd8fdd21bf820101b918775cc4bcb92"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -550,18 +550,18 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:42:05</sys_created_on>
         <sys_id>05d8fdd21bf820101b918775cc4bcbac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-02 18:42:05</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:54</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var cis = [];
 	var data = [];
-	var agents = new GlideRecord("sn_agent_computers_connected_to_agent");
+	var agents = new GlideRecord("sn_agent_ci_extended_info");
 	agents.query();
 	while (agents.next()) {
 		cis.push({
-			label: agents.getDisplayValue(),
-			name: agents.getDisplayValue()
+			label:agents.getValue('name'),
+			name: agents.getValue('name')
 		});
 	}
 	outputs.cis = {
@@ -708,7 +708,7 @@
         <label>CIs</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Get CIs">3cd8fdd21bf820101b918775cc4bcb82</model>
+        <model display_value="Get Agents">3cd8fdd21bf820101b918775cc4bcb82</model>
         <model_id>3cd8fdd21bf820101b918775cc4bcb82</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_3cd8fdd21bf820101b918775cc4bcb82</name>
@@ -752,7 +752,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=3cd8fdd21bf820101b918775cc4bcb82^sys_idNOT IN4dd8fdd21bf820101b918775cc4bcb92"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Get CIs">3cd8fdd21bf820101b918775cc4bcb82</action>
+        <action display_value="Get Agents">3cd8fdd21bf820101b918775cc4bcb82</action>
         <cid>ce7e267f-fe8a-41d8-8a6e-6b4e86afec79</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -766,10 +766,10 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:42:04</sys_created_on>
         <sys_id>4dd8fdd21bf820101b918775cc4bcb92</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Agent Client Collector Spoke">bc92a446dbf820102266187d139619d8</sys_scope>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-02 18:42:05</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4dd8fdd21bf820101b918775cc4bcb92"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -780,18 +780,18 @@
         <sys_created_by>haritha.ambati@snc</sys_created_by>
         <sys_created_on>2020-12-02 18:42:05</sys_created_on>
         <sys_id>05d8fdd21bf820101b918775cc4bcbac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>haritha.ambati@snc</sys_updated_by>
-        <sys_updated_on>2020-12-02 18:42:05</sys_updated_on>
+        <sys_updated_on>2020-12-22 07:06:54</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var cis = [];
 	var data = [];
-	var agents = new GlideRecord("sn_agent_computers_connected_to_agent");
+	var agents = new GlideRecord("sn_agent_ci_extended_info");
 	agents.query();
 	while (agents.next()) {
 		cis.push({
-			label: agents.getDisplayValue(),
-			name: agents.getDisplayValue()
+			label:agents.getValue('name'),
+			name: agents.getValue('name')
 		});
 	}
 	outputs.cis = {
